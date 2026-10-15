@@ -1,5 +1,3 @@
-// Archivo independiente: no requiere entrada.hpp ni bibliotecas externas.
-// Compilar con C++17. Introduce un dato por linea y pulsa Enter.
 #include <cmath>
 #include <iomanip>
 #include <iostream>
@@ -8,8 +6,6 @@
 #include <string>
 #include <type_traits>
 
-// Repite la pregunta si la entrada no es un numero completo dentro del rango.
-// getline evita que letras sobrantes afecten a la siguiente pregunta.
 template <typename T>
 T leer(const std::string& mensaje, T minimo, T maximo) {
     for (;;) {
