@@ -1,4 +1,3 @@
-// Archivo independiente. Compilar con C++17.
 #include <iostream>
 #include <string>
 #include <stdexcept>
