@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de codigo fuente">
+      <UniqueIdentifier>{6BD7A8B8-0C85-58EF-B52E-72BB459498C3}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\p1_13_personas_punteros.cpp">
+      <Filter>Archivos de codigo fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

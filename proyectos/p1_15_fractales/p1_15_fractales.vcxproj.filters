@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de codigo fuente">
+      <UniqueIdentifier>{2D9F0309-344C-5A9E-9D42-57154BD16013}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\p1_15_fractales.cpp">
+      <Filter>Archivos de codigo fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
