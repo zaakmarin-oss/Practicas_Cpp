@@ -6,9 +6,6 @@
 #include <string>
 #include <type_traits>
 
-// Repite la pregunta si la entrada no es un numero completo dentro del rango.
-// getline evita que letras sobrantes afecten a la siguiente pregunta.
-template <typename T>
 T leer(const std::string& mensaje, T minimo, T maximo) {
     for (;;) {
         std::cout << mensaje << std::flush;
